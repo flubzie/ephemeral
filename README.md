@@ -1,5 +1,7 @@
 # Ephemeral
 
+I want to write more, but hate the idea of people reading what I write (for now). So I built ephemeral.
+
 A beautiful, minimalist writing pad where your words disappear when you leave. Write freely, leave no trace.
 
 ## Features
