@@ -402,6 +402,7 @@ main {
     border-radius: 3px;
 }
 
+
 @keyframes fadeIn {
     from {
         opacity: 0;

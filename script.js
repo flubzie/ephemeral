@@ -27,18 +27,8 @@ class EphemeralEditor {
     }
     
     setupEditor() {
-        // Set random placeholder text
-        const placeholders = [
-            'Start writing...',
-            'Begin...',
-            'Go...',
-            'Dive in...',
-            'Go ahead...',
-            'Get started...',
-            'Jump in...'
-        ];
-        const randomPlaceholder = placeholders[Math.floor(Math.random() * placeholders.length)];
-        this.editor.setAttribute('data-placeholder', randomPlaceholder);
+        // Set philosophical quote as placeholder
+        this.editor.setAttribute('data-placeholder', 'Write without history. Think without saving. When you leave, it leaves...');
         
         this.editor.focus();
     }
